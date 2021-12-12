@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<style>
+			ol li {
+				display: list-item;
+			}
+			.i1 {
+				transition: width 2s;
+			}
+			.i1:hover {
+				width: 300px;
+			}
+			.i2 {
+				transition: width 2s, height 4s;
+			}
+			.i2:hover {
+				width: 300px;
+				height: 300px;
+			}
+			.i3 {
+				transition: width 2s linear;
+			}
+			.i3:hover {
+				width: 300px;
+			}
+			.i4 {
+				transition: width 2s ease;
+			}
+			.i4:hover {
+				width: 300px;
+			}
+			.i5 {
+				transition: width 2s ease-in;
+			}
+			.i5:hover {
+				width: 300px;
+			}
+			.i6 {
+				transition: width 2s ease-out;
+			}
+			.i6:hover {
+				width: 300px;
+			}
+			.i7 {
+				transition: width 2s ease-in-out;
+			}
+			.i7:hover {
+				width: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<ol>
+			<li><div class="item i1"></div></li>
+			<li><div class="item i2"></div></li>
+			<li><div class="item i3"></div></li>
+			<li><div class="item i4"></div></li>
+			<li><div class="item i5"></div></li>
+			<li><div class="item i6"></div></li>
+			<li><div class="item i7"></div></li>
+		</ol>
+		<a href="page3.html">Next</a>
+		<a href="index.html">Back</a>
+	</body>
+</html>
